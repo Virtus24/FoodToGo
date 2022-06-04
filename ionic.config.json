@@ -1,0 +1,7 @@
+{
+  "name": "FoodToGo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
