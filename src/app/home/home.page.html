@@ -36,7 +36,7 @@
 </ion-content>
 </ion-menu>
 
-<ion-page class="ion-page" id="main-content">
+<div class="ion-page" id="main-content">
 <ion-header>
   <ion-toolbar>
     <ion-buttons>
@@ -48,6 +48,68 @@
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
-</ion-page>
+</div>
 
-<ion-menu-controller></ion-menu-controller>
+
+
+<div class="cards">
+<ion-infinite-scroll>
+<ion-card>
+
+  <ion-item align-self-center text-center>
+    <h2>Adobo</h2>
+  </ion-item>
+
+  <img src="assets/adobo.jpg">
+
+  <ion-card-content>
+    <p>Meat usually marinated in a sauce containing vinegar and garlic, browned in fat, and simmered in the marinade.</p>
+  </ion-card-content>
+
+ 
+  <ion-row>
+    <ion-col>
+      <button ion-button icon-start clear small>
+        <ion-icon name="cart-outline"></ion-icon>
+        <div>Add-to-cart</div>
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button icon-start clear small>
+        <ion-icon name="wallet-outline"></ion-icon>
+        <div>Buy</div>
+      </button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+
+  <ion-card>
+  
+    <ion-item align-self-center text-center>
+      <h2>Adobo</h2>
+    </ion-item>
+  
+    <img src="assets/adobo.jpg">
+  
+    <ion-card-content>
+      <p>Meat usually marinated in a sauce containing vinegar and garlic, browned in fat, and simmered in the marinade.</p>
+    </ion-card-content>
+  
+   
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="cart-outline"></ion-icon>
+          <div>Add-to-cart</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-start clear small>
+          <ion-icon name="wallet-outline"></ion-icon>
+          <div>Buy</div>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-infinite-scroll>
+  </div>
